@@ -112,3 +112,43 @@
   border-top:2px solid #ddd;
   text-align:right;
 }
+
+.action-bar {
+  padding:5px 0;
+}
+
+.grid-table {
+  width:100%;
+}
+
+.grid-table td {
+  border:1px solid #ddd;
+  padding:2px;
+}
+
+.grid-table .cells td {
+  height:100px;
+}
+
+.grid-table .headings td,
+.grid-table .headings .input {
+  background:#ddd;
+}
+
+.grid-table .input {
+  border:0;
+  width:100%;
+  box-sizing:border-box;
+  padding:5px;
+  font-size:1.5em;
+  resize: none; 
+}
+
+.grid-table .input:focus {
+  outline:0;
+}
+
+.grid-table td:focus,
+.grid-table td:hover {
+  outline:2px solid orange;
+}
