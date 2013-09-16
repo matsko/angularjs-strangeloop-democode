@@ -115,6 +115,7 @@
 
 .action-bar {
   padding:5px 0;
+  margin-top:1em;
 }
 
 .grid-table {
@@ -151,4 +152,59 @@
 .grid-table td:focus,
 .grid-table td:hover {
   outline:2px solid orange;
+}
+
+.example-city-list li {
+  display:inline-block;
+  margin-right:5px;
+}
+
+.example-city-list a:before {
+  content:"+ ";
+}
+
+.map-entries {
+  margin-top:-80px;
+  border-top:2px solid #ccc;
+  padding:20px;
+  position:relative;
+  z-index:1000;
+  background:rgba(255,255,255,0.5);
+}
+
+.map-list-entry {
+  display:inline-block;
+  width:30%;
+  vertical-align:top;
+  border:1px solid #ddd;
+  background:white;
+  margin-right:1em;
+  margin-bottom:1em;
+  padding:10px;
+  cursor:pointer;
+  position:relative;
+}
+
+.map-list-entry:hover {
+  background:#eee;
+}
+
+.map-list-entry-remove {
+  position:absolute;
+  top:-10px;
+  right:-10px;
+  border:1px solid #ddd;
+  line-height:30px;
+  text-align:center;
+  width:30px;
+  background:white;
+  border-radius:2px;
+}
+
+.map-marker-controls {
+  border-bottom:2px solid #999;
+  border-top:1px solid #999;
+  background:#ddd;
+  color:orange;
+  padding:10px;
 }
