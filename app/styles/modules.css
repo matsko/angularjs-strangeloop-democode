@@ -1,0 +1,14 @@
+.fixed-view {
+  position:fixed;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.view-bar {
+  background:rgba(255,255,255,0.8);
+  left:19%;
+  padding:10px 20px;
+  border-top:2px solid #ddd;
+  text-align:right;
+}
