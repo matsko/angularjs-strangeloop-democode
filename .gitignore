@@ -1,3 +1,4 @@
 .DS_Store
 .agignore
 node_modules
+/selenium
