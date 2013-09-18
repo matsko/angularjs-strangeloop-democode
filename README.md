@@ -4,6 +4,7 @@ Strangeloop AngularJS Demo Repository
 
 1. `npm install`
 2. `grunt serve`
+3. Go to: `http://localhost:8888`
 
 # Testing
 
@@ -16,4 +17,4 @@ Strangeloop AngularJS Demo Repository
 ### Install
 
 1. `./node_modules/protractor/bin/install_selenium_standalone`
-2. ./protractor-test.sh`
+2. `./protractor-test.sh`
